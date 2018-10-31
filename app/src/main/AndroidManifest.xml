@@ -21,6 +21,7 @@
         android:icon="@drawable/ic_iitcm"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
         <activity
             android:name="com.cradle.iitc_mobile.IITC_Mobile"
             android:configChanges="orientation|keyboard|keyboardHidden|screenSize|uiMode"
@@ -177,7 +178,7 @@
             android:icon="@drawable/ic_action_save"
             android:label="@string/activity_save_to_file"
             android:noHistory="false"
-            android:theme="@android:style/Theme.Holo.Dialog"/>
+            android:theme="@android:style/Theme.Material.Dialog"/>
 
         <!-- START Used for Samsung Multi-Window support -->
         <uses-library

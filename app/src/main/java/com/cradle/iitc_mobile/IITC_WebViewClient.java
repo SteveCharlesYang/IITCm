@@ -118,7 +118,7 @@ public class IITC_WebViewClient extends WebViewClient {
             scripts.add("script" + DOMAIN + "/user-location.user.js");
         }
 
-        scripts.add("script" + DOMAIN + "/total-conversion-build.user.js");
+        scripts.add("script" + DOMAIN + "/" + mIitc.getString(R.string.iitc_js_file));
 
         final String js = "(function(){['" + TextUtils.join("','", scripts) + "'].forEach(function(src) {" +
                 "var script = document.createElement('script');script.src = '//'+src;" +

@@ -86,4 +86,58 @@
     <string name="pref_enable_dev_mode">启用开发者模式</string>
     <string name="pref_advanced_options_sum">开发人员选项和高级调整</string>
     <string name="pref_advanced_options">高级设置</string>
+    <string name="pref_about_text">
+        <![CDATA[
+        <h1>Ingress Intel Total Conversion Mobile</h1>
+        <h2>(Prime版)</h2>
+        <b>版本号: %1$s</b><br>
+        <b>IITC脚本版本号: %2$s</b><br>
+        <br>
+        <b>由@CharleYang修改</b><br>
+        <b>由<a href="https://github.com/leCradle">cradle</a>, <a href="https://github.com/fkloft">fkloft</a> 和
+        其他贡献者参与编写</b><br>
+        <br>
+        <b>图标来自<a href="http://be.net/giuseppelucido">Giuseppe Lucido</a></b><br><br>
+        IITC Mobile是由<a href="https://github.com/breunigs"><b>breunigs</b></a>设计的，
+        针对Ingress Intel Total Conversion（IITC）用户脚本优化的移动浏览器。
+        在Niantic要求主要开发人员关闭他的github项目之后，项目基于<a href="https://github.com/jonatkins"><b>jonatkins</b></a>
+        的fork基础上继续开发。
+        <h3>社区:</h3>
+        • Visit the <a href="http://iitc.me/">IITC website</a> for new releases and the desktop version.<br>
+        • Follow the <a href="https://plus.google.com/105383756361375410867">IITC Google+ page</a>
+        for release announcements.<br>
+        • Join the <a href="https://plus.google.com/communities/105647403088015055797">IITC Google+ community</a>
+        - a place to ask for help and discuss with other users.
+        <h3>开发者:</h3>
+        <a href="https://github.com/iitc-project/ingress-intel-total-conversion">IITC on Github</a>
+        <h3>IITC Licence:</h3>
+        Copyright © 2013 Stefan Breunig, Jon Atkins, Philipp Schäfer and others<br><br>
+
+        Permission to use, copy, modify, and/or distribute this software for
+        any purpose with or without fee is hereby granted, provided that the
+        above copyright notice and this permission notice appear in all
+        copies.<br><br>
+
+        THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHORS DISCLAIM ALL
+        WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED
+        WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE
+        AUTHORS BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL
+        DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA
+        OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+        TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+        PERFORMANCE OF THIS SOFTWARE.
+        ]]>
+    </string>
+    <string name="notice_how_to">
+        <![CDATA[<b>如何使用 IITCm:</b><br><br>
+        • 导航: 从屏幕左边缘滑动（或单击应用程序图标）以唤起导航抽屉。再次单击应用程序图标以返回到地图。<br><br>
+        • 图层/高亮: 从屏幕右边缘滑动（或单击顶栏中的图层选择器图标）唤起图层抽屉。<br><br>
+        • 如果两个设备都支持NFC，则可以快速将当前Portal链接/永久链接发送到另一个设备（将两个设备背靠背并点击屏幕以将地图发射到另一个设备）。<br><br>
+        • 您可以在设置中添加官方插件。<br><br>
+        • 有关外部插件，请查看 <a href="http://iitc.me/faq/#mobile-plugins">FAQ.]]>
+    </string>
+    <string name="notice_extplugins">
+        <![CDATA[提示:<br><br>
+        IITC Mobile也可以加载外部插件！<br><br>单击右上角的（+）图标添加它们。插件文件必须以\'.user.js \'结尾并复制到 <b>%1$s</b><br>]]>
+    </string>
 </resources>

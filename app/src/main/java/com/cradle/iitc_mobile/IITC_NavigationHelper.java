@@ -56,7 +56,7 @@ public class IITC_NavigationHelper extends ActionBarDrawerToggle implements OnIt
 
         mPrefs = PreferenceManager.getDefaultSharedPreferences(iitc);
 
-        mActionBar.setDisplayShowHomeEnabled(true); // show icon
+        //mActionBar.setDisplayShowHomeEnabled(true); // show icon
 
         mNavigationAdapter = new NavigationAdapter();
         mDrawerLeft.setAdapter(mNavigationAdapter);
