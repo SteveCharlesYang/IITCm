@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cradle.iitc_mobile"
+    package="cc.x7f.iitcm"
     android:installLocation="auto"
-    android:versionCode="104"
-    android:versionName="0.26.0">
+    android:versionCode="201"
+    android:versionName="1.01">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -16,14 +16,14 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
-        android:name="com.cradle.iitc_mobile.IITC_Application"
+        android:name="cc.x7f.iitcm.IITC_Application"
         android:allowBackup="true"
         android:icon="@drawable/ic_iitcm"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <uses-library android:name="org.apache.http.legacy" android:required="false" />
         <activity
-            android:name="com.cradle.iitc_mobile.IITC_Mobile"
+            android:name="cc.x7f.iitcm.IITC_Mobile"
             android:configChanges="orientation|keyboard|keyboardHidden|screenSize|uiMode"
             android:label="@string/app_name"
             android:launchMode="singleTask">
@@ -100,12 +100,12 @@
         </activity>
 
         <activity
-            android:name="com.cradle.iitc_mobile.prefs.PreferenceActivity"
+            android:name="cc.x7f.iitcm.prefs.PreferenceActivity"
             android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
             android:label="@string/activity_settings"/>
 
         <activity
-            android:name="com.cradle.iitc_mobile.prefs.PluginPreferenceActivity"
+            android:name="cc.x7f.iitcm.prefs.PluginPreferenceActivity"
             android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
             android:label="@string/activity_plugins">
             <!-- Handles external user plugins -->
@@ -146,17 +146,17 @@
         </activity>
 
         <activity
-            android:name="com.cradle.iitc_mobile.share.ShareActivity"
+            android:name="cc.x7f.iitcm.share.ShareActivity"
             android:label="@string/activity_share"
             android:noHistory="true"
-            android:parentActivityName="com.cradle.iitc_mobile.IITC_Mobile">
+            android:parentActivityName="cc.x7f.iitcm.IITC_Mobile">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.cradle.iitc_mobile.IITC_Mobile"/>
+                android:value="cc.x7f.iitcm.IITC_Mobile"/>
         </activity>
 
         <activity
-            android:name="com.cradle.iitc_mobile.share.SendToClipboard"
+            android:name="cc.x7f.iitcm.share.SendToClipboard"
             android:enabled="true"
             android:excludeFromRecents="true"
             android:exported="false"
@@ -171,7 +171,7 @@
         </activity>
 
         <activity
-            android:name="com.cradle.iitc_mobile.share.SaveToFile"
+            android:name="cc.x7f.iitcm.share.SaveToFile"
             android:enabled="true"
             android:excludeFromRecents="true"
             android:exported="false"
@@ -205,7 +205,7 @@
         <!-- Points to searchable activity so the whole app can invoke search. -->
         <meta-data
             android:name="android.app.default_searchable"
-            android:value="com.cradle.iitc_mobile.IITC_Mobile"/>
+            android:value="cc.x7f.iitcm.IITC_Mobile"/>
     </application>
 
 </manifest>

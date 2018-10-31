@@ -6,7 +6,7 @@ android {
     buildToolsVersion "28.0.3"
     useLibrary 'org.apache.http.legacy'
     defaultConfig {
-        applicationId "com.cradle.iitc_mobile"
+        applicationId "cc.x7f.iitcm"
         minSdkVersion 21
         targetSdkVersion 28
     }
